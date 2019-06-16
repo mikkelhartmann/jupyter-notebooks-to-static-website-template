@@ -1,0 +1,23 @@
+site_name: Static Website
+theme:
+  name: "material"
+  palette:
+    primary: "blue"
+    accent: "indigo"
+nav:
+  - about: about.md
+  - pre-processing:
+      - introduction: pre-processing/introduction.md
+      - missing data: pre-processing/missing-data.md
+      - feature engineering: pre-processing/feature-engineering.md
+  - model building: model-building.md
+  - testing: testing.md
+  - experimental: 
+      - introduction: experimental/introduction.md
+      - some experiment: experimental/some-experiment.md
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
