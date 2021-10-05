@@ -1,7 +1,7 @@
 # jupyter-notebooks-to-static-website-template
 A template for generating a static website from a collection of notebooks.
 
-This repo follows [this blogpost](www.mikkelhartmann.dk/2019/05/14/static-website-from-jupyter-notebooks.html). 
+This repo follows [this blogpost](http://mikkelhartmann.dk/2019/05/14/static-website-from-jupyter-notebooks.html). 
 
 ## Requirements
 It is assumed that you have `conda` installed and that it works from the commandline. You will also need to have `make`. 
